@@ -1,7 +1,5 @@
 package linkedList;
 
-import java.util.HashSet;
-import java.util.Set;
 
 public class Test {
 
@@ -13,8 +11,12 @@ public class Test {
 //		System.out.println(set.add(1));
 //		System.out.println(set.add(1));
 		
+		//位运算
+		int arr[] = {1,2,3,2,1};
 		int a = 0;
-		a='3';
+		for(int i = 0;i < arr.length;i++){
+			a ^= arr[i];
+		}
 		System.out.println(a);
 		
 	}
